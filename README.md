@@ -12,3 +12,8 @@ Dentro de la carpeta `src` se encuentran distintas aplicaciones estructuradas pa
 * **SistemaDeEmpleados:** Gestión de datos, variables y tipos de datos asociados a trabajadores.
 * **SistemaDeReservaDeHoteles:** Ejercicio práctico de entrada y salida de datos por consola para reservas.
 * **TiendaEnLinea:** Estructura básica para el manejo de variables de inventario, productos y clientes.
+* **SistemaDeAutentificacion.**
+* **SistemaDescuentosVIP**
+* **SistemaPrestamoLibros**
+* **TiendaOnline.java**
+* **ValorDentroRango**
