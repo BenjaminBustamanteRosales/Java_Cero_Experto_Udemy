@@ -46,9 +46,18 @@ Dentro de la carpeta `src` se encuentran distintas aplicaciones estructuradas pa
 
 ## Clases y objetos
 
-* **Persona:** Clase que modela a una persona con sus atributos.
 * **DetalleDeUnaPersona:** Programa que muestra la información detallada de una persona.
 * **DetalleLibro:** Programa que muestra la información detallada de un libro.
+
+## Programación orientada a objetos: paquetes y herencia
+
+Ejercicios organizados en paquetes dentro de `src`, donde una clase de prueba (con `main`) usa las clases de otro paquete:
+
+* **persona/Persona:** Clase que modela a una persona con sus atributos y métodos, ahora ubicada en su propio paquete.
+* **PruebaPersona/PruebaPersona:** Clase de prueba que importa `Persona` desde otro paquete y crea objetos a partir de ella.
+* **aritmetica/Aritmetica:** Clase con operaciones aritméticas reutilizables desde otras clases.
+* **Prueba/PruebaAritmetica:** Clase de prueba que crea un objeto de `Aritmetica` y utiliza sus métodos.
+* **animales/Animal:** Clase de animales para practicar herencia entre clases.
 
 ## Aplicaciones y ejercicios prácticos
 
