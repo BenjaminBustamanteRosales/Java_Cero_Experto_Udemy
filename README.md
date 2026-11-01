@@ -58,6 +58,13 @@ Ejercicios organizados en paquetes dentro de `src`, donde una clase de prueba (c
 * **aritmetica/Aritmetica:** Clase con operaciones aritméticas reutilizables desde otras clases.
 * **Prueba/PruebaAritmetica:** Clase de prueba que crea un objeto de `Aritmetica` y utiliza sus métodos.
 * **animales/Animal:** Clase de animales para practicar herencia entre clases.
+* **JavaBeans:** Clase que sigue el estándar JavaBean (atributos privados con sus métodos `get` y `set`).
+* **ventas (paquete):** Clases del dominio de ventas, organizadas en su propio paquete.
+* **PruebaVentas (paquete):** Clase de prueba que crea objetos del paquete `ventas` y los utiliza.
+
+## Manejo de errores
+
+* **Excepciones:** Manejo de excepciones con `try-catch` para controlar errores en tiempo de ejecución.
 
 ## Aplicaciones y ejercicios prácticos
 

@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class PruebaPersona {
     public static void main(String[] args) {
         var consola = new Scanner(System.in);
-
+        System.out.println("contador: "+ Persona.contadorPersonas);
 
         var persona1 = new Persona("Jorge", "Gomez");
         System.out.println("Nombre y apellido persona 1: "
@@ -21,10 +21,10 @@ public class PruebaPersona {
         System.out.println("Nombre y apellido persona 2: "
                 + persona2.getNombre() + " " + persona2.getApellido());
 
-        System.out.println(persona1.getPersona());
-        System.out.println(persona2.getPersona() );
-
-
+        System.out.println(persona1.toString());
+        System.out.println(persona2.toString());
+        System.out.println("Personas creadas: " + Persona.contadorPersonas );
+        System.out.println("contador: "+ Persona.contadorPersonas);
     }
 
 
